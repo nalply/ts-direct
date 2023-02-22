@@ -1,0 +1,30 @@
+{
+  "lib": [ "es2022" ],
+  "include": [ "root/**/*.ts" ],
+  
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es2022",
+    "outDir": "dist",
+    "baseUrl": "./root",
+    "paths": { "typescript": [ "../node_modules/typescript/lib/typescript" ] },
+
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importsNotUsedAsValues": "error",
+    "checkJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

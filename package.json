@@ -3,7 +3,6 @@
     "typescript": "^4.9.5"
   },
   "devDependencies": {
-    "alive-server": "^1.2.9",
-    "live-server": "^1.2.2"
+    "alive-server": "^1.2.9"
   }
 }
